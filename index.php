@@ -1,11 +1,15 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<link href="./lib/bootstrap/css/bootstrap.css" rel="stylesheet"/>
-		<link href="./lib/bootstrap/css/bootstrap-theme.css" rel="stylesheet"/>
-		<script src="./lib/bootstrap/js/bootstrap.js"></script>
+		<?php include "./include/header.php"; ?>
+		<link href="./css/index.css" rel="stylesheet"/>
+		<script src="./js/index.js"></script>
 	</head>
 
 	<body>
-		<button class="btn btn-primary">TEST BUTTON</button>
+		<div class="container">
+			<button class="btn btn-primary">TEST BUTTON</button>
+			<img src="./img/hello.jpg"/>
+		</div>
 	</body>
 </html>
